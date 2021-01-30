@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-back{
+    background: rgba(125, 224, 218, 0.8);
+
+}
+.nav-link{
+    
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar-brand{
+    
+    color: black;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #fff;
+ }
+
+.navbar-toggler{
+    outline:none!important;
+}
