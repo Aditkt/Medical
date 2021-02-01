@@ -11,22 +11,27 @@ main{
 }
    
     
-nav{
+nav{ 
     display:flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-
+    
     background-color:#915d79;
     font-family: 'Poppins', sans-serif;
 }
 .logo{
     color: rgb(255, 255, 255);
+  
     
     text-transform: uppercase;
     letter-spacing:5px;
     font-size: 25px;
     font-weight: bold;
+    
+    
+    
+    
 }
 .logo :hover{
     color: thistle;
@@ -36,6 +41,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 60%;
+    letter-spacing: 2px;
 }
 .nav-links li{
     list-style: none;
@@ -52,6 +58,7 @@ nav{
 .burger{
     display: none;
     color: azure;
+  
    
 }
 
@@ -64,6 +71,7 @@ nav{
 @media screen and (max-width:768px)
 {    body{
             overflow-x: hidden;
+           
          }
     .nav-links{
         position: absolute;
@@ -90,7 +98,7 @@ nav{
 
 .content{ 
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform:translateY(-50%);
     text-align: center;
@@ -110,7 +118,7 @@ nav{
 button{
     width: 150px;
     padding: 15px ;
-    margin: 20px 10px;
+    margin: 10px 0px 10px ;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #915d79 ;
@@ -140,8 +148,8 @@ button:hover span{
 button:hover{
     border: none;
 }
-/*
-.sign-in{
+
+.register{
     width:360px;
     padding:10% 0 0;
    margin:auto;
@@ -155,10 +163,11 @@ button:hover{
     padding:40px;
     padding-bottom: 20px;
     text-align: center;
-    z-index: -1;
+    z-index: 1;
+   
 }
 .form input{
-    outline: 1;
+    outline: none!important;
     background: #f2f2f2;
     width: 100%;
     border:0;
@@ -166,20 +175,19 @@ button:hover{
     padding:10px;
     border-radius: 10px;
 }
-.form button{
-    width: 150px;
-    padding: 15px ;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #915d79 ;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    outline: none!important;
-    
-}
 
+    .form .reg-message{
+        margin: 0 0 10px ;
+        margin-bottom: ;
+        color: azure;
+        font-size: 12px;
+    }
+    .form .reg-message a{
+        color: thistle;
+        text-decoration: none;
+    }
+    .form .register-form{
+        display:none;
+    }
 
+   
