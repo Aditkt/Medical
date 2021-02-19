@@ -159,7 +159,7 @@ button:hover{
     background: rgb(17, 17, 17,0.5) ;
     max-width: 360px;
     border-radius: 10px;
-    margin: 0 auto 100px;
+    margin: 80px auto 100px;
     padding:40px;
     padding-bottom: 20px;
     text-align: center;
@@ -178,7 +178,7 @@ button:hover{
 
     .form .reg-message{
         margin: 0 0 10px ;
-        margin-bottom: ;
+       
         color: azure;
         font-size: 12px;
     }
@@ -186,8 +186,10 @@ button:hover{
         color: thistle;
         text-decoration: none;
     }
-    .form .register-form{
-        display:none;
-    }
-
-   
+ 
+   #login-form{
+       display: none;
+   }
+   #reg-form{
+       display: none;
+   }
